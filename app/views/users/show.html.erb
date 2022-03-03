@@ -1,10 +1,10 @@
   <%= flash[:update] %>
-  <%= flash[:new] %> 
+  <%= flash[:new] %>
 
  <div class="container">
     <div class="row">
       <div class="col-md-3">
-        <%= render 'userinfo', user: @user %> <%#共通化呼び出しコード%>
+        <%= render 'userinfo', user: @user %>
         <%= render 'books/newbook', book: @book %> <%#共通化呼び出しコード%>
       </div>
       <div class="col-md-8 offset-md-1">
